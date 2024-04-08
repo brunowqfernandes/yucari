@@ -7,7 +7,7 @@ section.hero {
 }
 
 body.home .header {
-   @apply bg-transparent lg:py-24 py-16 absolute left-0 top-0 w-full z-50;
+   @apply bg-transparent lg:py-24 py-20 absolute left-0 top-0 w-full z-50;
 }
 
 .header {
