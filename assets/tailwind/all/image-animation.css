@@ -1,0 +1,42 @@
+.scrolling-container {
+   width: 100%;
+   overflow: hidden;
+}
+
+.scrolling-container .image-animation {
+   animation: scroll 100000s linear infinite;
+   width: 10000000vw;
+   background-position: 3.5rem center;
+   @apply bg-contain h-[7.75rem] bg-repeat-x;
+   transform: translateX(0) translateY(-14.06%);
+}
+
+.scrolling-container .image-animation-hero {
+   animation: scrollHero 100000s linear infinite;
+   width: 10000000vw;
+   background-position: 3.5rem center;
+   @apply bg-contain h-[7.75rem] bg-repeat-x;
+   transform: translateX(0);
+}
+
+
+@keyframes scroll {
+   0% {
+      transform: translateX(0) translateY(-14.06%);
+   }
+
+   100% {
+      transform: translateX(-50%) translateY(-14.06%);
+   }
+}
+
+
+@keyframes scrollHero {
+   0% {
+      transform: translateX(0);
+   }
+
+   100% {
+      transform: translateX(-50%);
+   }
+}

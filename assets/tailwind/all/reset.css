@@ -1,0 +1,97 @@
+body {
+   @apply font-primary;
+   -webkit-font-smoothing: 'antialiased';
+}
+
+/* Estilo padrão para inputs */
+.select2 .select2-selection,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="url"],
+input[type="search"],
+input[type="button"],
+input[type="tel"],
+input[type="reset"] {
+   @apply border border-black p-2 focus:outline-none max-w-full h-[3.5rem] rounded-none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+   line-height: 2.5rem;
+}
+
+input {
+   accent-color: #841027;
+}
+
+#place_order {
+   @apply bg-[#841027] h-[3.5rem] w-[20rem] max-w-full;
+}
+
+.woocommerce-checkout #payment {
+   border-radius: 0 !important;
+}
+
+
+button[name="apply_coupon"] {
+   @apply w-1/2 h-[3.5rem] !border-[#000] !border-solid !border !bg-transparent !rounded-none !text-black;
+}
+
+.showcoupon {
+   @apply text-[#841027];
+}
+
+.woocommerce form.checkout_coupon,
+.woocommerce form.login,
+.woocommerce form.register {
+   border-radius: 0 !important;
+   border-color: black !important;
+}
+
+.woocommerce .woocommerce-customer-details address {
+   border-radius: 0 !important;
+   border-color: black !important;
+   border-width: 1px !important;
+   height: 100%
+}
+
+.woocommerce .woocommerce-customer-details .woocommerce-columns {
+   @apply flex lg:gap-10 gap-4 justify-between;
+}
+
+.woocommerce-MyAccount-navigation ul {
+   list-style: none;
+}
+
+ul {
+   list-style-type: disc;
+   padding-left: 1.5rem;
+   margin-bottom: 1rem;
+}
+
+ol {
+   list-style-type: decimal;
+   padding-left: 1.5rem;
+}
+
+li {
+   margin-bottom: 0.3125rem;
+}
+
+.menu {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.menu li {
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.entry-content p {
+   margin-bottom: 1rem;
+}
