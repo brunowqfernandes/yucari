@@ -14,4 +14,4 @@ jobs:
         server: ftp.host86.com.br
         username: hostcomb
         password: G+wr$7O3=ChU
-        server-dir: public_html/clientes23/yucari/wp-content/themes/yucari
+        server-dir: public_html/clientes23/yucari/wp-content/themes/yucari/
