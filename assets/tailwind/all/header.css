@@ -10,6 +10,8 @@
    width: 100%;
    position: absolute;
    left: 0;
+   background-color: #0C030F;
+   padding: 22px 40px;
 }
 
 body:not(.home) .ambassador * {
