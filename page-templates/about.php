@@ -42,7 +42,7 @@ get_header();
    $src_scroll = $image_scroll['url'] ?? '';
 
    ?>
-   <div class="relative lg:pb-[23.75rem] pb-[18.75rem] overflow-hidden">
+   <div class="relative pb-[18.75rem] overflow-hidden">
       <section class="scrolling-container">
          <div class="image-animation-hero m-auto text-center absolute -left-[100vw] top-[5rem] z-0" style="background-image: url(<?php echo $src_scroll ?>);">
          </div>
