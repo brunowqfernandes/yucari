@@ -30,7 +30,7 @@ if ($related_products) : ?>
 
       if ($heading) :
       ?>
-         <h2><?php echo esc_html($heading); ?></h2>
+         <h2 class="text-base font-normal uppercase"><?php echo esc_html($heading); ?></h2>
       <?php endif; ?>
 
       <div id="swiper-related-products" class="swiper overflow-hidden">
