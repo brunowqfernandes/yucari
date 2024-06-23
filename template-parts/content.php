@@ -33,11 +33,6 @@ if (is_product())
          ?>
             <?php 
                yucari_post_thumbnail();
-               $attachment_ids = $product->get_gallery_image_ids();
-               foreach( $attachment_ids as $attachment_id ) 
-            {            // Display the image URL
-               echo '<img src="' . wp_get_attachment_url( $attachment_id ) . '"/>'
-            }
             ?>
          <?php }
          ?>
