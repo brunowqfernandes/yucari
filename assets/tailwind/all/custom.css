@@ -131,7 +131,7 @@ ul.sub-menu .menu-item.menu-item-has-children:hover::after {
 }
 
 main>article {
-   @apply container lg:pt-[6.25rem];
+   @apply container;
 }
 
 @media(max-width:1024px) {
