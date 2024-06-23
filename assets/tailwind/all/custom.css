@@ -12,6 +12,9 @@ body.home .header {
 
 .header {
    @apply bg-black py-12;
+   img {
+      filter: brightness(100) saturate(1);
+   }
 }
 
 .footer {
@@ -24,7 +27,7 @@ ul.menu-primary {
 }
 
 .menu-primary:not(.sub-menu) li a {
-   @apply py-3.5 block;
+   @apply py-3.5 block text-white;
 }
 
 .menu-primary .menu-item {
