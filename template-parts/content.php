@@ -31,9 +31,9 @@ if (is_product())
          if (is_product() && !empty($product))
          {
          ?>
-            <?php 
-               yucari_post_thumbnail();
-            ?>
+            <h1 class="entry-title"><?php the_title() ?>
+               <span class="<?php echo esc_attr(apply_filters('woocommerce_product_price_class', 'price')); ?>"><?php echo $product->get_price_html(); ?></span>
+            </h1>
          <?php }
          ?>
       </div>
@@ -51,10 +51,9 @@ if (is_product())
       <?php endif; ?>
    </header><!-- .entry-header -->
 
+   <?php yucari_post_thumbnail(); ?>
+
    <div class="entry-content">
-         <h1 class="entry-title"><?php the_title() ?>
-            <span class="<?php echo esc_attr(apply_filters('woocommerce_product_price_class', 'price')); ?>"><?php echo $product->get_price_html(); ?></span>
-         </h1>
       <?php
       the_content(
          sprintf(
