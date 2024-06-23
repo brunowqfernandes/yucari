@@ -39,6 +39,7 @@ $wrapper_classes   = apply_filters(
 );
 
 ?>
+<div class="w-[40%]">
 <div id="single-product-galerry" class="order-1 flex-1 single-gallery swiper">
    <!-- flex flex-col  -->
    <div class="swiper-wrapper">
@@ -67,4 +68,5 @@ $wrapper_classes   = apply_filters(
    </div>
    <div class="swiper-button-next"></div>
    <div class="swiper-button-prev"></div>
+</div>
 </div>
