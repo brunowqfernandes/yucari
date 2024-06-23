@@ -62,7 +62,7 @@ if (post_password_required())
       do_action('woocommerce_single_product_summary');
       ?>
       <?php if(get_field('tabela_de_medidas')) {
-         echo '<img class="tabela-medidas" src"' . get_field('tabela_de_medidas') . '" />'
+         echo '<img class="tabela-medidas" src"' . get_field('tabela_de_medidas') . '" />';
       }?>
    </div>
 
