@@ -132,7 +132,7 @@ ul.sub-menu .menu-item.menu-item-has-children:hover::after {
 }
 
 main>article {
-   @apply container pt-4;
+   @apply container pt-12;
 }
 
 @media(max-width:1024px) {
