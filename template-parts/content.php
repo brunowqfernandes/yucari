@@ -31,9 +31,15 @@ if (is_product())
          if (is_product() && !empty($product))
          {
          ?>
-            <h1 class="entry-title"><?php the_title() ?>
-               <span class="<?php echo esc_attr(apply_filters('woocommerce_product_price_class', 'price')); ?>"><?php echo $product->get_price_html(); ?></span>
-            </h1>
+            <?php 
+               yucari_post_thumbnail();
+               $product = new WC_product(the_ID());
+               $attachment_ids = $product->get_gallery_image_ids();
+               foreach( $attachment_ids as $attachment_id ) 
+            {            // Display the image URL
+               echo '<img src="' . wp_get_attachment_url( $attachment_id ) . '"/>'
+            }
+            ?>
          <?php }
          ?>
       </div>
@@ -51,9 +57,10 @@ if (is_product())
       <?php endif; ?>
    </header><!-- .entry-header -->
 
-   <?php yucari_post_thumbnail(); ?>
-
    <div class="entry-content">
+         <h1 class="entry-title"><?php the_title() ?>
+            <span class="<?php echo esc_attr(apply_filters('woocommerce_product_price_class', 'price')); ?>"><?php echo $product->get_price_html(); ?></span>
+         </h1>
       <?php
       the_content(
          sprintf(

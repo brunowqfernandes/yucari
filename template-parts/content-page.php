@@ -61,19 +61,12 @@ if ($numero_produtos_carrinho > 99)
    {
    ?>
       <header class="entry-header">
-         <?php yucari_post_thumbnail();
-            $product = new WC_product(the_ID());
-            $attachment_ids = $product->get_gallery_image_ids();
-            foreach( $attachment_ids as $attachment_id ) 
-         {            // Display the image URL
-            echo '<img src="' . wp_get_attachment_url( $attachment_id ) . '"/>'
-         }
-         ?>
+         <?php the_title('<h1 class="entry-title">', '</h1>'); ?>
       </header><!-- .entry-header -->
-         <?php } ?>
-         
+   <?php } ?>
+   <?php yucari_post_thumbnail(); ?>
+
    <div class="entry-content">
-      <?php the_title('<h1 class="entry-title">', '</h1>'); ?>
       <?php
       the_content();
 
