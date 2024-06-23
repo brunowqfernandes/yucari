@@ -3,7 +3,7 @@ body {
 }
 
 section.hero {
-   @apply lg:pt-[53.334%] bg-yellow-100 bg-cover bg-center bg-no-repeat relative z-0 pt-[120%];
+   @apply lg:pt-0 lg:h-screen bg-yellow-100 bg-cover bg-center bg-no-repeat relative z-0 pt-[120%];
 }
 
 body.home .header {

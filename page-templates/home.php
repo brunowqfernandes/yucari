@@ -29,7 +29,7 @@ get_header();
       <?php endwhile; ?>
    <?php endif; ?>
 
-   <?php if (have_rows('last_drop')) : ?>
+   <!-- <?php if (have_rows('last_drop')) : ?>
       <?php while (have_rows('last_drop')) : the_row();
          $title    = get_sub_field('title');
          $products = get_sub_field('products');
@@ -118,7 +118,7 @@ get_header();
 
          </section>
       <?php endwhile; ?>
-   <?php endif; ?>
+   <?php endif; ?> -->
 </main>
 
 <?php
