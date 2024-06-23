@@ -39,7 +39,7 @@ $wrapper_classes   = apply_filters(
 );
 
 ?>
-<div class="w-5/12">
+<div style="width: 35%">
 <div id="single-product-galerry" class="order-1 flex-1 single-gallery swiper">
    <!-- flex flex-col  -->
    <div class="swiper-wrapper">
