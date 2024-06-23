@@ -10,7 +10,7 @@ get_header();
 ?>
 
 <main>
-   <div class="container pt-[5rem]">
+   <div class="container">
       <h1 class="text-[1rem] text-purple-900 mb-12 uppercase">
          <?php the_title(); ?>
       </h1>
