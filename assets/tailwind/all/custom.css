@@ -12,9 +12,10 @@ body.home .header {
 
 .header {
    @apply bg-black py-12;
-   img {
-      filter: brightness(100) saturate(1);
-   }
+}
+
+.header img {
+   filter: brightness(100) saturate(1);
 }
 
 .footer {

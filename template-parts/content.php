@@ -28,14 +28,14 @@ if (is_product())
          elseif (!is_product()) :
             the_title('<h2 class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a></h2>');
          endif;
-         // if (is_product() && !empty($product))
-         // {
-         // ?>
-         //    <h1 class="entry-title"><?php the_title() ?>
-         //       <span class="<?php echo esc_attr(apply_filters('woocommerce_product_price_class', 'price')); ?>"><?php echo $product->get_price_html(); ?></span>
-         //    </h1>
-         // <?php }
-         // ?>
+         if (is_product() && !empty($product))
+         {
+         ?>
+            <!-- <h1 class="entry-title"><?php the_title() ?>
+               <span class="<?php echo esc_attr(apply_filters('woocommerce_product_price_class', 'price')); ?>"><?php echo $product->get_price_html(); ?></span>
+            </h1> -->
+         <?php }
+         ?>
       </div>
       <?php
 
