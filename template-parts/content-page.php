@@ -61,12 +61,12 @@ if ($numero_produtos_carrinho > 99)
    {
    ?>
       <header class="entry-header">
-         <?php the_title('<h1 class="entry-title">', '</h1>'); ?>
+         <?php yucari_post_thumbnail(); ?>
       </header><!-- .entry-header -->
-   <?php } ?>
-   <?php yucari_post_thumbnail(); ?>
-
+         <?php } ?>
+         
    <div class="entry-content">
+      <?php the_title('<h1 class="entry-title">', '</h1>'); ?>
       <?php
       the_content();
 
