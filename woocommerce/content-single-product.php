@@ -46,8 +46,10 @@ if (post_password_required())
    ?>
 
    <div class="summary entry-summary">
+      <h1 class="entry-title"><?php the_title() ?>
+         <span class="<?php echo esc_attr(apply_filters('woocommerce_product_price_class', 'price')); ?>"><?php echo $product->get_price_html(); ?></span>
+      </h1>
       <?php
-      the_title('<h2 class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a></h2>');
       /**
        * Hook: woocommerce_single_product_summary.
        *
