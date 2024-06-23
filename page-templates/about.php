@@ -10,8 +10,8 @@ get_header();
 ?>
 
 <main>
-   <div class="container lg:pt-[10rem] pt-[5rem]">
-      <h1 class="lg:text-[3.5rem] text-5xl text-purple-900 mb-12 uppercase">
+   <div class="container pt-[5rem]">
+      <h1 class="text-[1rem] text-purple-900 mb-12 uppercase">
          <?php the_title(); ?>
       </h1>
       <?php if (have_rows('sobre')) :
@@ -27,7 +27,7 @@ get_header();
                   <img class="w-full h-auto aspect-video" src="<?php echo $src ?>" alt="">
                </div>
                <div class="w-full lg:flex-1">
-                  <p class="text-sm text-[#4E4E4E] pb-6 border-b border-[#4E4E4E] uppercase">
+                  <p class="italic font-thin text-[#4E4E4E] pb-6 border-b border-[#4E4E4E] uppercase">
                      <?php echo $texto ?>
                   </p>
                </div>
