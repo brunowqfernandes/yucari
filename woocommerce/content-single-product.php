@@ -47,6 +47,7 @@ if (post_password_required())
 
    <div class="summary entry-summary">
       <?php
+      the_title('<h2 class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a></h2>');
       /**
        * Hook: woocommerce_single_product_summary.
        *
