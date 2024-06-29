@@ -137,11 +137,12 @@ body.single.product-template-default .entry-content {
 
 .woocommerce div.product form.cart .button {
    width: 100% !important;
-   background-color: #841027 !important;
+   background-color: #0C030F !important;
    color: white !important;
    padding: 1.5rem !important;
    border-radius: 0 !important;
    border: none !important;
+   text-transform: uppercase;
 }
 
 div.product form.cart .variations th {
