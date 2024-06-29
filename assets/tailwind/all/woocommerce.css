@@ -403,7 +403,7 @@ body.single .woocommerce .products.columns-1 li.product {
 
 li.product.outofstock::before,
 div.product.outofstock::before {
-   @apply absolute leading-none left-2 top-6 bg-[#841027] text-lg font-bold py-4 px-6 z-10 text-[#FCF9EA] max-w-full;
+   @apply absolute leading-none left-2 top-6 bg-[#FCF9EA] text-lg font-bold py-4 px-6 z-10 text-[#0C030F] max-w-full;
    content: "Sold Out";
 }
 
