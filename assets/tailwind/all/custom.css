@@ -14,7 +14,7 @@ body.home .header {
    @apply bg-black py-12;
 }
 
-.header img {
+body:not(.home) .header img {
    filter: brightness(100) saturate(1);
 }
 
@@ -27,8 +27,11 @@ ul.menu-primary {
    @apply flex gap-x-6 2xl:gap-x-10 items-center flex-wrap lg:justify-start justify-center;
 }
 
+body:not(.home) .menu-primary:not(.sub-menu) li a {
+   @apply text-white;
+}
 .menu-primary:not(.sub-menu) li a {
-   @apply py-3.5 block text-white;
+   @apply py-3.5 block 
 }
 
 .menu-primary .menu-item {

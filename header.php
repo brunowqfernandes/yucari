@@ -66,7 +66,7 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
                ?>
             </div>
             <div class="w-[10rem]">
-               <ul class="flex gap-8 lg:gap-4 justify-end list-none pl-0 mb-0 invert">
+               <ul class="flex gap-8 lg:gap-4 justify-end list-none pl-0 mb-0 invert [.body-home_&]:invert-0">
                   <li class="lg:flex hidden">
                      <a href="<?php echo home_url() . '?s=' ?>">
                         <?php render_svg('search'); ?>
