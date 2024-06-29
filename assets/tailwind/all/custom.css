@@ -18,6 +18,10 @@ body:not(.home) .header img {
    filter: brightness(100) saturate(1);
 }
 
+body:not(.home) .cart-menu {
+   @apply invert
+}
+
 .footer {
    @apply bg-purple-900 py-20;
 }
