@@ -14,7 +14,7 @@ body.home .header {
    @apply bg-black py-12;
 }
 
-body:not(.home) {
+body:not(.home) .header{
    @apply pt-10 pb-8
 }
 
