@@ -22,7 +22,7 @@ get_header();
       <style>
          @media (max-width: 560px) {
             section.hero {
-               background-image: url('<?php echo get_sub_field('background_mobile') ?>')
+               background-image: url('<?php echo get_sub_field('hero_background_mobile') ?>')
             }
          }
       </style>
