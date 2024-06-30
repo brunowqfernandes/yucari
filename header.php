@@ -52,7 +52,7 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
 
       <div class="container">
          <div class="flex gap-10 lg:gap-[4.75rem] 3xl:gap-[9.375rem] justify-center items-center">
-            <div class="w-[10rem] hidde lg:block">
+            <div class="w-[10rem] hidden lg:block">
                <?php the_custom_logo() ?>
             </div>
             <div class="flex-1 lg:flex hidden">
@@ -65,8 +65,8 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
                ]);
                ?>
             </div>
-            <div class="w-[10rem]">
-               <ul class="flex gap-8 lg:gap-4 justify-end list-none pl-0 mb-0 cart-menu">
+            <div class="w-full lg:w-[10rem]">
+               <ul class="flex gap-8 lg:gap-4 justify-between lg:justify-end list-none pl-0 mb-0 cart-menu">
                   <li class="lg:hidden">
                      <button @click="menuMobile = true" class="text-purple-900">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

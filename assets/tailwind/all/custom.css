@@ -19,7 +19,11 @@ body.home .header {
 }
 
 body:not(.home) .header{
-   @apply pt-14 pb-4
+   @apply pt-14 pb-4 
+}
+
+body:not(.home) .header .custom-logo img{
+   filter: none;
 }
 
 body:not(.home) .header img {
