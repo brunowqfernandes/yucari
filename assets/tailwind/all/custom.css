@@ -9,6 +9,9 @@ section.hero {
    section.hero {
       height: 100dvh;
    }
+   body:not(.home) .header .custom-logo-link img{
+      filter: none;
+   }
 }
 body.home .header {
    @apply bg-transparent lg:py-24 py-20 absolute left-0 top-0 w-full z-50;
@@ -20,10 +23,6 @@ body.home .header {
 
 body:not(.home) .header{
    @apply pt-4 pb-4
-}
-
-body:not(.home) .header .custom-logo-link img{
-   filter: none;
 }
 
 body:not(.home) .header img {
