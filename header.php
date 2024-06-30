@@ -52,7 +52,7 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
 
       <div class="container">
          <div class="flex gap-10 lg:gap-[4.75rem] 3xl:gap-[9.375rem] justify-center items-center">
-            <div class="w-[10rem]">
+            <div class="w-[10rem] hidde lg:block">
                <?php the_custom_logo() ?>
             </div>
             <div class="flex-1 lg:flex hidden">
