@@ -105,7 +105,7 @@ section.related.products::before {
 }
 
 section.related.products h2 {
-   @apply lg:text-[3.5rem] text-4xl mb-4 font-medium;
+   @apply text-base mb-6 font-thin;
 }
 
 @media(min-width:1024px) {
@@ -377,6 +377,11 @@ body.single .woocommerce .products.columns-1 li.product {
    flex: 0 0 100% !important;
    max-width: 100% !important;
    width: 100% !important;
+   margin-bottom: 0;
+}
+
+#swiper-related-products {
+   height: auto;
 }
 
 
