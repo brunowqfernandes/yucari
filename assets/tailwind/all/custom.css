@@ -206,7 +206,7 @@ main>article {
 }
 
 #menu-institutional.menu-primary {
-   @apply lg:flex-row flex-col lg:text-left text-center gap-4;
+   @apply lg:flex-row flex-col lg:text-left text-center gap-4 p-0;
 }
 
 #menu-institutional.menu-primary:not(.sub-menu) li a {
@@ -283,7 +283,13 @@ body.home .footer {
 }
 
 .footer .menu-item:first-of-type {
-   @apply relative !py-0 px-4 after:content-[''] after:bg-white after:w-[1px] after:h-full after:absolute after:right-0 after:top-0
+   @apply relative !py-0 px-4 lg:after:content-[''] after:bg-white after:w-[1px] after:h-full after:absolute after:right-0 after:top-0
+}
+
+@media(max-width: 560px) {
+   .footer {
+      text-align: center;
+   }
 }
 
 i.icon {

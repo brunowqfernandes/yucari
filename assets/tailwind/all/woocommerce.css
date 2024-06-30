@@ -8,7 +8,7 @@
 }
 
 .woocommerce ul.products.columns-3 li.product {
-   @apply w-full col-span-1;
+   @apply w-full col-span-1 place-content-start;
 }
 
 .woocommerce.columns-3 {
