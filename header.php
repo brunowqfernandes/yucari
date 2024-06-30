@@ -98,7 +98,7 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
          </div>
       </div>
       <div :class="{'-mr-0': menuMobile === true, '-mr-[100vw]': menuMobile === false}" class="menu-mobile lg:hidden w-full h-full fixed -mr-[100vw] bg-purple-900 bg-opacity-90 text-white top-0 right-0 transition-all animate-duration-300 z-[999]">
-         <ul class="flex gap-4 justify-between items-center mt-8 list-none p-0">
+         <ul class="flex gap-4 justify-between items-center m-0 list-none p-4">
             <li>
                <button @click="menuMobile = false" class="text-white rounded-full">
                   <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -110,10 +110,12 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
                <?php the_custom_logo() ?>
             </li>
             <li class="invert">
-               <?php $my_account_url = get_permalink(get_option('woocommerce_myaccount_page_id')); ?>
-               <a href="<?= $my_account_url ?>">
-                  <?php render_svg('user'); ?>
-               </a>
+               <button class="relative adfy__show-woofc" href="<?= wc_get_cart_url() ?>">
+                  <?php render_svg('shopping-cart'); ?>
+                  <?php if (!empty($numero_produtos_carrinho)) : ?>
+                     <span class="absolute w-5 h-5 bg-purple-900 text-white bottom-0 right-0 -mb-2.5 -mr-2.5 rounded-full flex items-center justify-center <?php echo $class_count ?>"><?php echo $numero_produtos_carrinho; ?></span>
+                  <?php endif; ?>
+               </button>
             </li>
          </ul>
 

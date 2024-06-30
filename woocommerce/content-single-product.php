@@ -64,7 +64,10 @@ if (post_password_required())
       do_action('woocommerce_single_product_summary');
       ?>
       <?php if(get_field('tabela_de_medidas')) {
-         echo '<img class="tabela-medidas order-5" src="' . get_field('tabela_de_medidas') . '" />';
+         echo '<div class="flex flex-col lg:flex-row order-5">';
+         echo '<img class="tabela-medidas flex-1 lg:basis-1/2" src="' . get_field('tabela_de_medidas') . '" />';
+         echo '<img class="tabela-medidas flex-1 lg:basis-1/2" src="' . get_field('tabela_de_medidas_2') . '" />';
+         echo '</div>';
       }?>
    </div>
 
