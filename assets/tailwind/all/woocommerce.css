@@ -1,5 +1,5 @@
 .woocommerce ul.products.columns-3 {
-   @apply grid xl:grid-cols-3 gap-[2.5rem];
+   @apply grid grid-cols-2 xl:grid-cols-3 gap-[2.5rem];
 }
 
 .woocommerce ul.products.columns-3::before,
