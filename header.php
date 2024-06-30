@@ -67,6 +67,13 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
             </div>
             <div class="w-[10rem]">
                <ul class="flex gap-8 lg:gap-4 justify-end list-none pl-0 mb-0 cart-menu">
+                  <li class="lg:hidden">
+                     <button @click="menuMobile = true" class="text-purple-900">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                     </button>
+                  </li>
                   <li class="lg:flex hidden">
                      <a href="<?php echo home_url() . '?s=' ?>">
                         <?php render_svg('search'); ?>
@@ -78,6 +85,11 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
                         <?php render_svg('user'); ?>
                      </a>
                   </li>
+                  <li class="lg:hidden">
+                     <div class="w-[10rem]">
+                        <?php the_custom_logo() ?>
+                     </div>
+                  </li>
                   <li>
                      <button class="relative adfy__show-woofc" href="<?= wc_get_cart_url() ?>">
                         <?php render_svg('shopping-cart'); ?>
@@ -85,14 +97,7 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
                            <span class="absolute w-5 h-5 bg-purple-900 text-white bottom-0 right-0 -mb-2.5 -mr-2.5 rounded-full flex items-center justify-center <?php echo $class_count ?>"><?php echo $numero_produtos_carrinho; ?></span>
                         <?php endif; ?>
                      </button>
-                  </li>
-                  <li class="lg:hidden">
-                     <button @click="menuMobile = true" class="text-purple-900">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                        </svg>
-                     </button>
-                  </li>
+                  </li>                  
                </ul>
             </div>
          </div>
