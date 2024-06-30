@@ -66,7 +66,7 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
                ?>
             </div>
             <div class="w-full lg:w-[10rem]">
-               <ul class="flex gap-8 lg:gap-4 justify-between lg:justify-end list-none pl-0 mb-0 cart-menu">
+               <ul class="flex gap-8 lg:gap-4 justify-between items-center lg:justify-end list-none pl-0 mb-0 cart-menu">
                   <li class="lg:hidden">
                      <button @click="menuMobile = true" class="text-purple-900">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
