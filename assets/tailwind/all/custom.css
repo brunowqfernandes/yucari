@@ -2,10 +2,6 @@ body {
    @apply bg-yellow-100 overflow-x-hidden;
 }
 
-body:has(#wpadminbar) {
-   @apply pt-12 md:pt-8
-}
-
 section.hero {
    @apply lg:pt-0 lg:h-screen bg-yellow-100 bg-cover bg-center bg-no-repeat relative z-0 pt-[120%];
 }
