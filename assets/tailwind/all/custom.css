@@ -283,7 +283,7 @@ body.home .footer {
 }
 
 .footer .menu-item:first-of-type {
-   @apply relative !py-0 px-4 lg:after:content-[''] after:bg-white after:w-[1px] after:h-full after:absolute after:right-0 after:top-0
+   @apply relative !py-0 px-4 content-none lg:after:content-[''] after:bg-white after:w-[1px] after:h-full after:absolute after:right-0 after:top-0
 }
 
 @media(max-width: 560px) {

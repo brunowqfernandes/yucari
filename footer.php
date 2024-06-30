@@ -28,7 +28,7 @@
             ?>
          </div>
          <div class="w-fit">
-            <ul class="flex lg:flex-row flex-col lg:text-left text-center gap-4 text-white list-none pl-0">
+            <ul class="flex lg:flex-row flex-col items-center lg:text-left text-center gap-4 text-white list-none pl-0">
                <li>
                   <a class="underline font-normal flex items-center" href="mailto:yucarisp@gmail.com">
                      <i class="icon icon-email"></i> yucarisp@gmail.com
