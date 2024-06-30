@@ -59,7 +59,7 @@ body:not(.home) .menu-primary:not(.sub-menu) li a {
 }
 
 ul.menu-primary-mobile {
-   @apply flex flex-col gap-y-6 items-center flex-wrap justify-center py-[5rem];
+   @apply flex flex-col gap-y-6 items-center flex-wrap justify-center py-4;
 }
 
 .menu-primary-mobile .menu-item {
