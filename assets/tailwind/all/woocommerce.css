@@ -181,7 +181,7 @@ div.product form.cart .variations th {
 form.cart table.variations tr {
    display: flex;
    flex-direction: column;
-   justify-content: start;
+   justify-content: flex-start;
    text-align: left;
    padding-top: 1.5rem;
 }
