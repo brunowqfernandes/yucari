@@ -103,17 +103,7 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
          </button>
-
-         <?php
-         wp_nav_menu([
-            'theme_location'  => 'menu-1',
-            'container_class' => '',
-            'container'       => 'nav',
-            'menu_class'      => 'menu-primary-mobile'
-         ]);
-         ?>
-
-         <ul class="flex gap-4 justify-center mt-8">
+         <ul class="flex gap-4 justify-center mt-8 list-none p-0 invert">
             <li>
                <a href="<?php echo home_url() . '?s=' ?>">
                   <?php render_svg('search'); ?>
@@ -126,5 +116,14 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
                </a>
             </li>
          </ul>
+
+         <?php
+         wp_nav_menu([
+            'theme_location'  => 'menu-1',
+            'container_class' => '',
+            'container'       => 'nav',
+            'menu_class'      => 'menu-primary-mobile'
+         ]);
+         ?>
       </div>
    </header>
