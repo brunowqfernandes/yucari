@@ -19,6 +19,13 @@ get_header();
 
          $shop_page_url = get_permalink(wc_get_page_id('shop'));
       ?>
+      <style>
+         @media (max-width: 560px) {
+            section.hero {
+               background-image: url('<?php echo get_subfield('bacground_mobile') ?>')
+            }
+         }
+      </style>
          <section class="hero scrolling-container" style="background-image: url(<?php echo $bg_src ?>);">
             <div class="image-animation-hero m-auto text-center absolute -left-[100vw] top-1/2 -translate-y-1/2 z-0" style="background-image: url(<?php echo $logo_src ?>);">
             </div>
