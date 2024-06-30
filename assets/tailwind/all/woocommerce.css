@@ -145,7 +145,7 @@ body.single.product-template-default .entry-content {
    text-transform: uppercase;
 }
 
-.woocommerce div.product form.cart .button:hover {
+.woocommerce div.product form.cart .button:enabled:hover {
    background-color: #0C030F!important;
    color: #fff!important;
 }
