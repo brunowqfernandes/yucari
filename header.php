@@ -98,7 +98,7 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
          </div>
       </div>
       <div :class="{'-mr-0': menuMobile === true, '-mr-[100vw]': menuMobile === false}" class="menu-mobile lg:hidden w-full h-full fixed -mr-[100vw] bg-purple-900 bg-opacity-90 text-white top-0 right-0 transition-all animate-duration-300 z-[999]">
-         <ul class="flex gap-4 justify-center mt-8 list-none p-0">
+         <ul class="flex gap-4 justify-between mt-8 list-none p-0">
             <li>
                <button @click="menuMobile = false" class="p-2 text-white rounded-full">
                   <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -107,9 +107,7 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
                </button>
             </li>
             <li class="invert">
-               <a href="<?php echo home_url() . '?s=' ?>">
-                  <?php render_svg('search'); ?>
-               </a>
+               <?php the_custom_logo() ?>
             </li>
             <li class="invert">
                <?php $my_account_url = get_permalink(get_option('woocommerce_myaccount_page_id')); ?>
