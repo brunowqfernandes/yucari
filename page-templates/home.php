@@ -30,7 +30,7 @@ get_header();
             <div class="image-animation-hero m-auto text-center absolute -left-[100vw] top-1/2 -translate-y-1/2 z-0" style="background-image: url(<?php echo $logo_src ?>);">
             </div>
             <div class="flex justify-center items-center absolute left-1/2 -translate-x-1/2 md:transform-none md:left-4 bottom-4">
-               <a class="text-lg leading-none border-[#0C030F] text-[#0C030F] uppercase hover:bg-[#0C030F] hover:text-[#FCF9EA] py-4 px-8 flex justify-center items-center w-[20rem] max-w-full" href="<?php echo esc_url($shop_page_url) ?>">Shop</a>
+               <a class="text-lg leading-none border-[#0C030F] border-2 text-[#0C030F] uppercase hover:bg-[#0C030F] hover:text-[#FCF9EA] py-4 px-8 flex justify-center items-center w-[20rem] max-w-full" href="<?php echo esc_url($shop_page_url) ?>">Shop</a>
             </div>
          </section>
       <?php endwhile; ?>
