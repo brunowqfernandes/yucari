@@ -14,9 +14,9 @@
    padding: 22px 40px;
 }
 
-/* body:not(.home) .ambassador * {
-   color: black !important;
-} */
+body:not(.home) .ambassador{
+   display: none;
+}
 
 .ambassadors--css-only .ambassadors__top {
    animation: toRight 30s infinite linear;
