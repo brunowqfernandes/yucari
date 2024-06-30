@@ -271,7 +271,9 @@ main>article {
 .virt-pagseguro-installments * {
    @apply font-bold text-xl;
 }
-
+body.home .footer {
+   display: none;
+}
 .footer .menu-item a {
    @apply text-white !py-0;
 }
