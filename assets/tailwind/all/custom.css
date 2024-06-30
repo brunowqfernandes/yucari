@@ -22,7 +22,7 @@ body:not(.home) .header{
    @apply pt-14 pb-4 
 }
 
-body:not(.home) .header .custom-logo img{
+body:not(.home) .header .custom-logo-link img{
    filter: none;
 }
 
