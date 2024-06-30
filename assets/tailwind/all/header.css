@@ -14,7 +14,7 @@
    padding: 22px 40px;
 }
 
-body:not(.home) .ambassador{
+body:not(.home) .ambassadors {
    display: none;
 }
 
