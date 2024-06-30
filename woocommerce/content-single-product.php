@@ -65,8 +65,8 @@ if (post_password_required())
       ?>
       <?php if(get_field('tabela_de_medidas')) {
          echo '<div class="flex flex-col lg:flex-row order-5">';
-         echo '<img class="tabela-medidas flex-1 lg:basis-1/2" src="' . get_field('tabela_de_medidas') . '" />';
-         echo '<img class="tabela-medidas flex-1 lg:basis-1/2" src="' . get_field('tabela_de_medidas_2') . '" />';
+         echo '<img class="tabela-medidas flex-1 pb-4 lg:pr-4 lg:pb-0 lg:basis-1/2" src="' . get_field('tabela_de_medidas') . '" />';
+         echo '<img class="tabela-medidas flex-1 pt-4 lg:pl-4 lg:pt-0 lg:basis-1/2" src="' . get_field('tabela_de_medidas_2') . '" />';
          echo '</div>';
       }?>
    </div>
