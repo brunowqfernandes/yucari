@@ -242,7 +242,9 @@ main>article {
 }
 
 .woocommerce-info {
-   border-top-color: #959595;
+   border: 0!important;
+   background: transparent!important;
+   padding: 1rem 0!important;
 }
 
 .woocommerce-info::before {
