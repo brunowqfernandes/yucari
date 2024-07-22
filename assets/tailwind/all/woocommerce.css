@@ -239,7 +239,7 @@ form.cart .variations label {
 
 .woocommerce .summary .woocommerce-variation-price {
    padding-top: 1.5rem;
-   padding-bottom: 1.5rem;
+   padding-bottom: 0;
 }
 
 .woocommerce .summary .woocommerce-variation-price .price {
