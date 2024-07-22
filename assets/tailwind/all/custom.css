@@ -247,7 +247,7 @@ main>article {
    padding: 1rem 0!important;
 }
 .woocommerce-info a {
-
+ text-decoration: underline;
 }
 
 .woocommerce-info::before {
