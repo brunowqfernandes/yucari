@@ -176,6 +176,7 @@ main>article {
 .swiper-button-prev {
    left: 30px;
 }
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
    color: #0c030f;
