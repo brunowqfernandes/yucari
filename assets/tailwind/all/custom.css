@@ -245,6 +245,7 @@ main>article {
    border: 0!important;
    background: transparent!important;
    padding: 1rem 0!important;
+   margin-bottom: 1rem!important;
 }
 .woocommerce-info a {
  text-decoration: underline;
