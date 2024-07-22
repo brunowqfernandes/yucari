@@ -43,7 +43,7 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
       <section class="ambassadors ambassadors--css-only absolute top-0 left-0">
          <div class="ambassadors__bottom large-heading">
             <div class="ambassador large-heading">
-               <p class="text-white text-2xl tracking-[4px] font-light space">
+               <p class="text-white text-base tracking-[4px] font-thin space">
                   Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500.Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500. Frete Grátis acima de R$500.
                </p>
             </div>

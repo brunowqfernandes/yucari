@@ -11,7 +11,7 @@
    position: absolute;
    left: 0;
    background-color: #0C030F;
-   padding: 22px 40px;
+   padding: 8px 24px;
 }
 
 body:not(.home) .ambassadors {

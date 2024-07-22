@@ -172,20 +172,26 @@ main>article {
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-   color: black;
+   color: #0c030f;
    transition: all ease 0.3s;
    font-size: 2rem;
+   padding: 3px;
+   border: 2px solid #0c030f;
 }
 
 
 .swiper-button-next:hover::after,
 .swiper-button-next:focus::after {
    transform: translateX(0.3125rem);
+   background-color: #0c030f;
+   color: #FCF9EA;
 }
 
 .swiper-button-prev:hover::after,
 .swiper-button-prev:focus::after {
    transform: translateX(-0.3125rem);
+   background-color: #0c030f;
+   color: #FCF9EA;
 }
 
 @media(max-width:1024px) {
