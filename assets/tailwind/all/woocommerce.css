@@ -237,6 +237,10 @@ form.cart .variations label {
    margin-bottom: 1.5rem;
 }
 
+.adfy__woofc-visible #adfy__woofc-overlay {
+   background: rgba(#0C030F, 0.5);
+}
+
 .woocommerce .summary .woocommerce-variation-price {
    padding-top: 0;
    padding-bottom: 0;
