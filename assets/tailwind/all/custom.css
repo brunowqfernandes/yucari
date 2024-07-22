@@ -246,9 +246,12 @@ main>article {
    background: transparent!important;
    padding: 1rem 0!important;
 }
+.woocommerce-info a {
+
+}
 
 .woocommerce-info::before {
-   color: #959595;
+   content: none;
 }
 
 .woocommerce-error,
