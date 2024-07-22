@@ -28,7 +28,14 @@ input {
 }
 
 #place_order {
-   @apply bg-[#841027] h-[3.5rem] w-[20rem] max-w-full;
+   @apply h-[3.5rem] w-[20rem] max-w-full;
+   border: 2px solid #0c030f;
+   color: #0c030f;
+   background: transparent;
+}
+#place_order:hover {
+   background-color: #0c030f;
+   color: #fcf9e4;
 }
 
 .woocommerce-checkout #payment {
