@@ -119,14 +119,6 @@ function yucari_content_width()
 }
 add_action('after_setup_theme', 'yucari_content_width', 0);
 
-function move_coupon_form() {
-   // Remove o formulário de cupom da posição atual
-   remove_action('woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10);
-   
-   // Adiciona o formulário de cupom antes do resumo do pedido
-   add_action('woocommerce_review_order_before_order_total', 'woocommerce_checkout_coupon_form', 10);
-}
-add_action('wp_loaded', 'move_coupon_form');
 
 /**
  * Register widget area.
