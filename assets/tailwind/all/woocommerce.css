@@ -2,6 +2,12 @@
    @apply grid grid-cols-2 xl:grid-cols-3 gap-[2.5rem];
 }
 
+@media (max-width: 560px) {
+   .woocommerce ul.products.columns-3 {
+      @apply gap-x-[1rem] gap-y-[1.5rem];
+   }
+}
+
 .woocommerce ul.products.columns-3::before,
 .woocommerce ul.products.columns-3::after {
    @apply !hidden;
