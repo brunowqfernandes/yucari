@@ -52,7 +52,7 @@ body.home .woocommerce ul.products li.product {
 }
 
 .woocommerce ul.products li.product .woocommerce-loop-product__title {
-   @apply text-base text-gray-700 m-0 p-0 w-full uppercase;
+   @apply text-sm text-gray-700 m-0 p-0 w-full uppercase;
 }
 
 .woocommerce ul.products li.product .price {
@@ -442,7 +442,7 @@ div.product.outofstock::before {
 }
 
 .price .woocommerce-Price-amount.amount {
-   @apply text-xs
+   @apply text-sm
 }
 .price .woocommerce-Price-amount.amount:nth-child(2) {
    @apply text-gray-400 font-light line-through;
