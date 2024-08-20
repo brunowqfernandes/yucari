@@ -174,13 +174,11 @@ main>article {
 }
 
 .swiper-button-next {
-   width: 44px;
-   height: 44px;
+   transform: scale(.6);
    right: 30px;
 }
 .swiper-button-prev {
-   width: 44px;
-   height: 44px;
+   transform: scale(.6);
    left: 30px;
 }
 

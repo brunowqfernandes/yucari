@@ -441,6 +441,9 @@ div.product.outofstock::before {
    content: "Sold Out";
 }
 
+.price .woocommerce-Price-amount.amount {
+   @apply text-xs
+}
 .price .woocommerce-Price-amount.amount:nth-child(2) {
    @apply text-gray-400 font-light line-through;
 
