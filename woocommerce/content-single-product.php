@@ -46,8 +46,8 @@ if (post_password_required())
    ?>
 
    <div class="summary entry-summary">
-      <h1 class="text-base font-normal uppercase"><?php the_title() ?></h1>
-      <span class="text-base font-light pb-8 <?php echo esc_attr(apply_filters('woocommerce_product_price_class', 'price')); ?>"><?php echo $product->get_price_html(); ?></span>
+      <h1 class="text-xs font-normal uppercase"><?php the_title() ?></h1>
+      <span class="text-xs font-light pb-8 <?php echo esc_attr(apply_filters('woocommerce_product_price_class', 'price')); ?>"><?php echo $product->get_price_html(); ?></span>
       <?php
       /**
        * Hook: woocommerce_single_product_summary.
