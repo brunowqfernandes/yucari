@@ -52,11 +52,11 @@ body.home .woocommerce ul.products li.product {
 }
 
 .woocommerce ul.products li.product .woocommerce-loop-product__title {
-   @apply text-sm text-gray-700 m-0 p-0 w-full uppercase;
+   @apply text-sm leading-tight text-gray-700 m-0 p-0 w-full uppercase;
 }
 
 .woocommerce ul.products li.product .price {
-   @apply text-base text-gray-700 m-0 p-0 w-full -mt-4 italic;
+   @apply text-base text-gray-700 m-0 p-0 w-full italic;
 }
 
 .woocommerce nav.woocommerce-pagination {
