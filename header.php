@@ -114,8 +114,12 @@ $class_count = $numero_produtos_carrinho <= 99 ? 'text-xs' : 'text-[0.625rem]';
             <li class="invert w-24">
                <?php the_custom_logo() ?>
             </li>
-            <li class="invert">
-               <button class="relative adfy__show-woofc" href="<?= wc_get_cart_url() ?>">
+            <li class="invert flex">
+               <?php $my_account_url = get_permalink(get_option('woocommerce_myaccount_page_id')); ?>
+               <a href="<?= $my_account_url ?>">
+                  <?php render_svg('user'); ?>
+               </a>
+               <button style="margin-left: 12px" class="relative adfy__show-woofc" href="<?= wc_get_cart_url() ?>">
                   <?php render_svg('shopping-cart'); ?>
                   <?php if (!empty($numero_produtos_carrinho)) : ?>
                      <span class="absolute w-5 h-5 bg-purple-900 text-white bottom-0 right-0 -mb-2.5 -mr-2.5 rounded-full flex items-center justify-center <?php echo $class_count ?>"><?php echo $numero_produtos_carrinho; ?></span>

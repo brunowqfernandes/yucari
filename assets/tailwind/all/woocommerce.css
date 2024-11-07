@@ -56,7 +56,7 @@ body.home .woocommerce ul.products li.product {
 }
 
 .woocommerce ul.products li.product .price {
-   @apply text-base text-gray-700 m-0 p-0 w-full -mt-4 italic;
+   @apply text-base text-gray-700 m-0 p-0 w-full italic;
 }
 
 .woocommerce nav.woocommerce-pagination {
@@ -142,8 +142,15 @@ section.related.products h2 {
    margin-right: 0;
 }
 
+.single-gallery [data-thumb] {
+   height: 100%;
+   max-height: 100vh;
+}
 .single-gallery a img {
    margin-bottom: 1.5rem;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
 }
 
 body.single.product-template-default .entry-content {
@@ -234,6 +241,11 @@ form.cart table.variations td label {
    line-height: 4rem;
    cursor: pointer;
    font-weight: 400;
+}
+
+form.cart table.variations td div:has(input:disabled) label {
+   opacity: 0.3;
+   cursor: not-allowed;
 }
 
 input[type="radio"][name^="attribute_tamanho"]:checked+label {
